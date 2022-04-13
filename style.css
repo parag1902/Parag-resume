@@ -1,0 +1,58 @@
+/* 
+global variable 
+*/ 
+h1 {
+    color: aquamarine;
+}
+
+h2 {
+    color: blue;
+}
+
+.h1custom {
+    color: black;
+    text-align: center;
+    background-color: chocolate;
+    position:relative;
+
+}
+.certifications{
+
+display : flex;
+flex-flow: row wrap;
+
+}
+img { 
+    border-radius: 75%; 
+    width: 150px;
+    height: 150px;
+}
+
+.sidebar{
+    display : flex;
+    background-color: bisque;
+    width: 30%;
+    align-self: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    position:relative;
+}
+
+.sidebar1{
+  
+    display:  flex;
+    background-color: aliceblue;
+    width:70%;
+    align-self: flex-end;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    position:absolute;
+    top: 105px;
+    width:65%;
+    
+    
+}
+body{
+    display: flex;
+    flex-flow: column wrap;
+}
